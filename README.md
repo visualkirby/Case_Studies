@@ -5,6 +5,7 @@ Case Studies done with R Programing
 What are the differences between Annual Members vs Casual Riders and what strategies 
 can be used to convert Casual Riders into Annual Members? With these insights we can 
 create business campaigns based on Time, Day, Month, Distance, Duration and Frequency.
+https://github.com/visualkirby/Case_Studies/blob/main/Cyclistic.PDF
 
 ## BellaBeat Case Study
 We are going to use public FitBit data provided to us by Möbius through Kaggle
