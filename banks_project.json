@@ -1,12 +1,31 @@
 {
-  "project_id": "PROJ_CASE_STUDIES",
-  "group_id": "PROJECT_GROUP_ANALYTICS",
+  "project_id": "PROJ_KAGGLE_CASE_STUDIES",
+  "group_id": "PROJECT_GROUP_KAGGLE_ANALYTICS",
 
-  "title": "Business & Analytics Case Studies",
+  "title": "Kaggle Business & Analytics Case Studies",
   "short_summary": "Collection of independent analytics and business case studies across domains",
   "summary": "A curated collection of standalone analytics and business case studies designed to demonstrate structured problem solving, data analysis, and decision-making across multiple domains. Each case study addresses a specific business question, applies analytical techniques, and delivers actionable insights supported by data.",
 
   "role_scope": "base|operations|supply_chain|finance",
+
+  "role_name": [
+    "Data Analyst",
+    "BI Engineer",
+    "Data Engineer",
+    "Automation Developer",
+    "Dashboard Designer",
+    "SQL Developer",
+    "Portfolio Designer",
+    "Decision Strategist",
+    "BI Visualization Developer",
+    "Dispatch Coordinator",
+    "Operations Coordinator",
+    "Field Service Coordinator",
+    "Logistics Coordinator",
+    "Supply Chain Analyst",
+    "Operations Analyst"
+
+  ],
 
   "skills": [
     "Data Analysis",
@@ -38,22 +57,63 @@
 
   "components": [
     {
-      "component_id": "COMP_CASE_STUDY_COLLECTION",
-      "name": "Case Study Collection",
-      "component_type": "analytical_case_study",
+      "component_id": "COMP_KAGGLE_CYCLISTIC",
+      "name": "Kaggle Cyclistic Case Study",
+      "component_type": "strategic_analysis",
       "deliverable_type": "pdf",
-      "objective": "Demonstrate structured analytical problem-solving across diverse business scenarios",
+      "objective": "With these insights we can create business campaigns based on Time, Day, Month, Distance, Duration and Frequency",
       "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
-      "files": [],
+      "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Cyclistic.PDF",
+      "files": [Cyclistic.PDF],
       "tools": [
-        { "tool_label": "Python", "tool_keyword": "python" },
-        { "tool_label": "SQL", "tool_keyword": "sql" },
-        { "tool_label": "Excel", "tool_keyword": "excel" }
+        { "tool_label": "R Programming", "tool_keyword": "r programming" },
+        { "tool_label": "Tidyverse", "tool_keyword": "tidyverse" },
+        { "tool_label": "Geosphere", "tool_keyword": "geosphere" }
       ],
       "skills": [
         { "skill_keyword": "analytical_thinking", "weight": 0.4 },
         { "skill_keyword": "business_insights", "weight": 0.3 },
         { "skill_keyword": "data_analysis", "weight": 0.3 }
+      ]
+    },
+    {
+      "component_id": "COMP_KAGGLE_BELLABEAT",
+      "name": "Kaggle BellaBeat Case Study",
+      "component_type": "strategic_analysis",
+      "deliverable_type": "pdf",
+      "objective": "How do FitBit customers use their smart devices and do they gain anything from extended use?",
+      "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
+      "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Bellabeat_Case_Study.pdf",
+      "files": [Bellabeat_Case_Study.pdf],
+      "tools": [
+        { "tool_label": "R Programming", "tool_keyword": "r programming" },
+        { "tool_label": "DPLYR", "tool_keyword": "dplyr" },
+        { "tool_label": "GGPlot2", "tool_keyword": "ggplot2" }
+      ],
+      "skills": [
+        { "skill_keyword": "big_data", "weight": 0.4 },
+        { "skill_keyword": "data_cleaning", "weight": 0.3 },
+        { "skill_keyword": "data_analysis", "weight": 0.3 }
+      ]
+    },
+    {
+      "component_id": "COMP_KAGGLE_BINARY_CLASSIFICATION",
+      "name": "Kaggle Binary Classification Competition",
+      "component_type": "strategic_analysis",
+      "deliverable_type": "pdf",
+      "objective": " Predict whether a customer continues with their account or closes it (e.g., churns).",
+      "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
+      "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Bank_Churn_Dataset.pdf",
+      "files": [Bank_Churn_Dataset.pdf],
+      "tools": [
+        { "tool_label": "R Programming", "tool_keyword": "r programming" },
+        { "tool_label": "Glmnet", "tool_keyword": "glmnet" },
+        { "tool_label": "GGPlot2", "tool_keyword": "ggplot2" }
+      ],
+      "skills": [
+        { "skill_keyword": "probability_analysis", "weight": 0.4 },
+        { "skill_keyword": "data_competition", "weight": 0.3 },
+        { "skill_keyword": "financial_analysis", "weight": 0.3 }
       ]
     }
   ]
