@@ -6,7 +6,7 @@
   "short_summary": "Collection of independent analytics and business case studies across domains",
   "summary": "A curated collection of standalone analytics and business case studies designed to demonstrate structured problem solving, data analysis, and decision-making across multiple domains. Each case study addresses a specific business question, applies analytical techniques, and delivers actionable insights supported by data.",
 
-  "role_scope": "base|operations|supply_chain|finance",
+  "role_scope": "base|operations|supply_chain|customer_service",
 
   "role_name": [
     "Data Analyst",
@@ -18,13 +18,14 @@
     "Portfolio Designer",
     "Decision Strategist",
     "BI Visualization Developer",
+    "Customer Service Representative",
+    "Customer Service Coordinator",
     "Dispatch Coordinator",
     "Operations Coordinator",
     "Field Service Coordinator",
     "Logistics Coordinator",
     "Supply Chain Analyst",
     "Operations Analyst"
-
   ],
 
   "skills": [
