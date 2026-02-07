@@ -65,7 +65,7 @@
       "objective": "With these insights we can create business campaigns based on Time, Day, Month, Distance, Duration and Frequency",
       "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
       "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Cyclistic.PDF",
-      "files": [Cyclistic.PDF],
+      "files": ["Cyclistic.PDF"],
       "tools": [
         { "tool_label": "R Programming", "tool_keyword": "r programming" },
         { "tool_label": "Tidyverse", "tool_keyword": "tidyverse" },
@@ -85,7 +85,7 @@
       "objective": "How do FitBit customers use their smart devices and do they gain anything from extended use?",
       "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
       "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Bellabeat_Case_Study.pdf",
-      "files": [Bellabeat_Case_Study.pdf],
+      "files": ["Bellabeat_Case_Study.pdf"],
       "tools": [
         { "tool_label": "R Programming", "tool_keyword": "r programming" },
         { "tool_label": "DPLYR", "tool_keyword": "dplyr" },
@@ -105,7 +105,7 @@
       "objective": " Predict whether a customer continues with their account or closes it (e.g., churns).",
       "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
       "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Bank_Churn_Dataset.pdf",
-      "files": [Bank_Churn_Dataset.pdf],
+      "files": ["Bank_Churn_Dataset.pdf"],
       "tools": [
         { "tool_label": "R Programming", "tool_keyword": "r programming" },
         { "tool_label": "Glmnet", "tool_keyword": "glmnet" },
