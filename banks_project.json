@@ -8,7 +8,7 @@
 
   "role_scope": "base|operations|supply_chain|customer_service",
 
-  "role_name": [
+  "roles": [
     "Data Analyst",
     "BI Engineer",
     "Data Engineer",
@@ -61,60 +61,83 @@
       "component_id": "COMP_KAGGLE_CYCLISTIC",
       "name": "Kaggle Cyclistic Case Study",
       "component_type": "strategic_analysis",
-      "deliverable_type": "pdf",
-      "objective": "With these insights we can create business campaigns based on Time, Day, Month, Distance, Duration and Frequency",
-      "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
+      "deliverable_type": "analytical_case_study",
+
+      "objective": "Analyze rider behavior patterns (time, day, month, duration, and trip frequency) to inform targeted marketing and membership conversion strategies.",
+      "business_value": "Demonstrates the ability to translate a business question into structured analysis and produce actionable campaign insights supported by data.",
+
       "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Cyclistic.PDF",
-      "files": ["Cyclistic.PDF"],
+
+      "files": [
+        "Cyclistic.PDF"
+      ],
+
       "tools": [
         { "tool_label": "R Programming", "tool_keyword": "r programming" },
         { "tool_label": "Tidyverse", "tool_keyword": "tidyverse" },
         { "tool_label": "Geosphere", "tool_keyword": "geosphere" }
       ],
+
       "skills": [
-        { "skill_keyword": "analytical_thinking", "weight": 0.4 },
-        { "skill_keyword": "business_insights", "weight": 0.3 },
-        { "skill_keyword": "data_analysis", "weight": 0.3 }
+        { "skill_label": "Analytical Thinking", "skill_keyword": "analytical_thinking", "weight": 0.4 },
+        { "skill_label": "Business Insights", "skill_keyword": "business_insights", "weight": 0.3 },
+        { "skill_label": "Data Analysis", "skill_keyword": "data_analysis", "weight": 0.3 }
       ]
     },
+
     {
       "component_id": "COMP_KAGGLE_BELLABEAT",
       "name": "Kaggle BellaBeat Case Study",
       "component_type": "strategic_analysis",
-      "deliverable_type": "pdf",
-      "objective": "How do FitBit customers use their smart devices and do they gain anything from extended use?",
-      "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
+      "deliverable_type": "analytical_case_study",
+
+      "objective": "Evaluate how users engage with smart device data over time to identify behavior trends and product opportunities that improve retention and engagement.",
+      "business_value": "Shows end-to-end analysis skills (cleaning, exploration, synthesis, recommendations) and communicates insights clearly for stakeholder decision-making.",
+
       "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Bellabeat_Case_Study.pdf",
-      "files": ["Bellabeat_Case_Study.pdf"],
+
+      "files": [
+        "Bellabeat_Case_Study.pdf"
+      ],
+
       "tools": [
         { "tool_label": "R Programming", "tool_keyword": "r programming" },
-        { "tool_label": "DPLYR", "tool_keyword": "dplyr" },
-        { "tool_label": "GGPlot2", "tool_keyword": "ggplot2" }
+        { "tool_label": "dplyr", "tool_keyword": "dplyr" },
+        { "tool_label": "ggplot2", "tool_keyword": "ggplot2" }
       ],
+
       "skills": [
-        { "skill_keyword": "big_data", "weight": 0.4 },
-        { "skill_keyword": "data_cleaning", "weight": 0.3 },
-        { "skill_keyword": "data_analysis", "weight": 0.3 }
+        { "skill_label": "Big Data", "skill_keyword": "big_data", "weight": 0.4 },
+        { "skill_label": "Data Cleaning", "skill_keyword": "data_cleaning", "weight": 0.3 },
+        { "skill_label": "Data Analysis", "skill_keyword": "data_analysis", "weight": 0.3 }
       ]
     },
+
     {
       "component_id": "COMP_KAGGLE_BINARY_CLASSIFICATION",
       "name": "Kaggle Binary Classification Competition",
       "component_type": "strategic_analysis",
-      "deliverable_type": "pdf",
-      "objective": " Predict whether a customer continues with their account or closes it (e.g., churns).",
-      "business_value": "Shows the ability to frame ambiguous problems, analyze data, and communicate insights clearly",
+      "deliverable_type": "analytical_case_study",
+
+      "objective": "Analyze drivers of customer churn and build a structured approach to predicting whether customers will retain or close their accounts.",
+      "business_value": "Demonstrates analytical reasoning and applied modeling thinking—connecting problem framing, feature considerations, and evaluation logic to business impact.",
+
       "component_link": "https://github.com/visualkirby/Case_Studies/blob/main/Bank_Churn_Dataset.pdf",
-      "files": ["Bank_Churn_Dataset.pdf"],
+
+      "files": [
+        "Bank_Churn_Dataset.pdf"
+      ],
+
       "tools": [
         { "tool_label": "R Programming", "tool_keyword": "r programming" },
-        { "tool_label": "Glmnet", "tool_keyword": "glmnet" },
-        { "tool_label": "GGPlot2", "tool_keyword": "ggplot2" }
+        { "tool_label": "glmnet", "tool_keyword": "glmnet" },
+        { "tool_label": "ggplot2", "tool_keyword": "ggplot2" }
       ],
+
       "skills": [
-        { "skill_keyword": "probability_analysis", "weight": 0.4 },
-        { "skill_keyword": "data_competition", "weight": 0.3 },
-        { "skill_keyword": "financial_analysis", "weight": 0.3 }
+        { "skill_label": "Probability Analysis", "skill_keyword": "probability_analysis", "weight": 0.4 },
+        { "skill_label": "Data Competition", "skill_keyword": "data_competition", "weight": 0.3 },
+        { "skill_label": "Financial Analysis", "skill_keyword": "financial_analysis", "weight": 0.3 }
       ]
     }
   ]
